@@ -10,4 +10,4 @@ COPY --chown=user . .
 RUN python scripts/train_classifier.py
 EXPOSE 7860
 # Hugging Face sets SPACE_HOST at runtime; the extension package is built then so it points at this Space.
-CMD ["sh", "-c", "python scripts/package_extension.py && uvicorn app.main:app --host 0.0.0.0 --port 7860"]
+CMD ["sh", "-c", "python scripts/package_extension.py && uvicorn app.main:app --host 0.0.0.0 --port ${PORT:-7860}"]

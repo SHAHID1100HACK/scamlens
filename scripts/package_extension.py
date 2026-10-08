@@ -6,7 +6,7 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 EXT = ROOT / "extension"
 OUT = ROOT / "app" / "static" / "downloads"
 EXCLUDE_SUFFIX = {".map", ".pem", ".key", ".env"}
-host = os.getenv("SPACE_HOST", "").strip()
+host = (os.getenv("SPACE_HOST") or os.getenv("RENDER_EXTERNAL_HOSTNAME") or "").strip()
 
 manifest = json.loads((EXT / "manifest.json").read_text(encoding="utf-8"))
 version = manifest["version"]
