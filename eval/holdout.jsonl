@@ -1,0 +1,28 @@
+{"id": "hs01", "text": "Hello, I saw your CV online. We have a work-from-home vacancy at an international company. Please pay Rs 1,100 as file handling charges to our manager on WhatsApp to proceed.", "label": "scam", "type": "holdout"}
+{"id": "hs02", "text": "Congrats, your internship application is accepted! Confirm by paying Rs 750 for the ID card and welcome kit before tonight.", "label": "scam", "type": "holdout"}
+{"id": "hs03", "text": "Buyer here, I will pay your full price. Please first accept the UPI request I sent so my payment can reach you, enter your PIN when asked.", "label": "scam", "type": "holdout"}
+{"id": "hs04", "text": "The flat is still available. I am out of town, send Rs 10,000 token amount to hold it and my relative will give you the keys.", "label": "scam", "type": "holdout"}
+{"id": "hs05", "text": "Alert from your bank: unusual login detected. Verify now at https://icici-secure-login.click and enter your OTP to avoid account freeze.", "label": "scam", "type": "holdout"}
+{"id": "hs06", "text": "Dear customer, your gas connection KYC is expiring. Call 9XXXXXXX45 immediately and share the code you receive, otherwise supply will stop.", "label": "scam", "type": "holdout"}
+{"id": "hs07", "text": "Hello sir, this is customs. A parcel under your name has drugs. You must stay on the call and not tell anyone. Pay Rs 25,000 to settle the case.", "label": "scam", "type": "holdout"}
+{"id": "hs08", "text": "Bhaiya, mera wallet kho gaya hai, abhi bahut urgent Rs 5,000 chahiye. Papa ko mat batana, main kal wapas kar dunga.", "label": "scam", "type": "holdout"}
+{"id": "hs09", "text": "Our AI powered trading system promises guaranteed 5 percent daily returns. Only 10 seats left, deposit now and watch your money grow.", "label": "scam", "type": "holdout"}
+{"id": "hs10", "text": "You have been selected for a free scholarship laptop from the ministry. Send a verification fee of Rs 499 to claim it today.", "label": "scam", "type": "holdout"}
+{"id": "hs11", "text": "Your electricity meter will be disconnected tonight. Contact the line officer on this personal number right away and pay the pending amount.", "label": "scam", "type": "holdout"}
+{"id": "hs12", "text": "Microsoft alert: your device has a virus. Call our support number now and let our technician connect remotely to remove it.", "label": "scam", "type": "holdout"}
+{"id": "hs13", "text": "Pay Rs 3,000 via gift cards to unlock your reward. This is a limited time offer, act now before it expires today.", "label": "scam", "type": "holdout"}
+{"id": "hs14", "text": "Sell your old phone fast! I will send my courier, kindly pay Rs 200 pickup fee first and I will transfer the full amount after.", "label": "scam", "type": "holdout"}
+{"id": "hg01", "text": "Hi team, the project review is moved to Thursday 3 pm. Please update your slides before then.", "label": "genuine", "type": "holdout"}
+{"id": "hg02", "text": "Your bank statement for September is ready. Sign in to the official app to download it. We never ask for your PIN or OTP.", "label": "genuine", "type": "holdout"}
+{"id": "hg03", "text": "Reminder: your dentist appointment is tomorrow at 5 pm. Reply YES to confirm or call the clinic to reschedule.", "label": "genuine", "type": "holdout"}
+{"id": "hg04", "text": "Your OTP is 771204 for adding a new device. If you did not request this, ignore this message and do not share the code.", "label": "genuine", "type": "holdout"}
+{"id": "hg05", "text": "The seller has confirmed your order. Expected delivery is Tuesday. You can pay cash on delivery.", "label": "genuine", "type": "holdout"}
+{"id": "hg06", "text": "Interview call: Please join the video interview on Monday at 10 am using the link in your official invite email. Carry your ID.", "label": "genuine", "type": "holdout"}
+{"id": "hg07", "text": "Hey, are we still on for the movie on Saturday? I can book tickets if you share your seat choice.", "label": "genuine", "type": "holdout"}
+{"id": "hg08", "text": "Exam fee for the semester can be paid on the university portal until 20 Oct. Late payment will attract a fine as per the notice.", "label": "genuine", "type": "holdout"}
+{"id": "hg09", "text": "I listed my guitar for 12,000. You are welcome to come see and try it before deciding. Cash only when you pick it up.", "label": "genuine", "type": "holdout"}
+{"id": "hg10", "text": "Your electricity payment of Rs 980 was received. Thank you. The receipt is available in the app.", "label": "genuine", "type": "holdout"}
+{"id": "hg11", "text": "We could not deliver your parcel today. A new attempt will be made tomorrow between 10 and 6. Track it on the courier's official site.", "label": "genuine", "type": "holdout"}
+{"id": "hg12", "text": "Dad, I booked the train tickets for Diwali. Will send you the details tonight.", "label": "genuine", "type": "holdout"}
+{"id": "hg13", "text": "Congratulations, you are our 1000th visitor to the library fest. Collect your free bookmark from the front desk tomorrow.", "label": "genuine", "type": "holdout"}
+{"id": "hg14", "text": "Please find attached the invoice for the consulting hours in September. Payment terms are 30 days as agreed in the contract.", "label": "genuine", "type": "holdout"}

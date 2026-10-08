@@ -1,0 +1,8 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+models/*.joblib
+app/static/downloads/
+*.pem
+*.key

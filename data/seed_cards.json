@@ -1,0 +1,1513 @@
+[
+ {
+  "id": "fake-recruiter-registration-fee",
+  "name": "Fake recruiter asks for a registration fee",
+  "origin": "seed",
+  "channels": [
+   "email",
+   "whatsapp",
+   "job_portal"
+  ],
+  "targets": [
+   "students",
+   "job seekers"
+  ],
+  "hook": "A 'recruiter' offers a job or selection and then asks you to pay a registration, joining or documentation fee, often called refundable. Real employers do not charge candidates.",
+  "red_flags": [
+   "fee before joining",
+   "offer without interview",
+   "free email or chat-app recruiter",
+   "pressure to pay today"
+  ],
+  "pressure_tactics": [
+   "urgency",
+   "authority"
+  ],
+  "payment_methods": [
+   "upi"
+  ],
+  "safe_response": [
+   "Do not pay anything",
+   "Search the company's official careers page",
+   "Look up the organisation's contact details yourself (official site or app) and ask them directly",
+   "Report the number or profile on the job platform"
+  ],
+  "ai_enabled": false,
+  "date": "2026-09-01",
+  "source_url": "",
+  "source_name": "ScamLens seed",
+  "confidence": 1.0
+ },
+ {
+  "id": "fake-internship-certificate-fee",
+  "name": "Internship that sells a training kit or certificate",
+  "origin": "seed",
+  "channels": [
+   "email",
+   "whatsapp"
+  ],
+  "targets": [
+   "students"
+  ],
+  "hook": "You are 'selected' for an internship at a famous company but must pay for a kit, certificate, or seat confirmation. The company never receives the money.",
+  "red_flags": [
+   "pay to confirm seat",
+   "selection without applying",
+   "famous brand, generic email",
+   "certificate fee"
+  ],
+  "pressure_tactics": [
+   "urgency"
+  ],
+  "payment_methods": [
+   "upi"
+  ],
+  "safe_response": [
+   "Never pay to get an internship",
+   "Check the company's official internship page",
+   "Ask your college placement cell"
+  ],
+  "ai_enabled": false,
+  "date": "2026-09-01",
+  "source_url": "",
+  "source_name": "ScamLens seed",
+  "confidence": 1.0
+ },
+ {
+  "id": "task-like-and-earn",
+  "name": "Like, rate and earn task scam",
+  "origin": "seed",
+  "channels": [
+   "telegram",
+   "whatsapp"
+  ],
+  "targets": [
+   "students",
+   "homemakers"
+  ],
+  "hook": "You get small paid tasks (like videos, rate products). Early payouts are real, then you are asked to deposit larger amounts to unlock 'premium tasks' and never get them back.",
+  "red_flags": [
+   "pay per simple task",
+   "deposit to unlock tasks",
+   "telegram group",
+   "small first payout"
+  ],
+  "pressure_tactics": [
+   "greed"
+  ],
+  "payment_methods": [
+   "upi",
+   "crypto"
+  ],
+  "safe_response": [
+   "Stop and do not deposit",
+   "Do not recruit friends",
+   "Report the Telegram group and the payment account"
+  ],
+  "ai_enabled": false,
+  "date": "2026-09-01",
+  "source_url": "",
+  "source_name": "ScamLens seed",
+  "confidence": 1.0
+ },
+ {
+  "id": "wfh-data-entry-advance",
+  "name": "Work-from-home data entry for an advance",
+  "origin": "seed",
+  "channels": [
+   "sms",
+   "whatsapp"
+  ],
+  "targets": [
+   "students",
+   "homemakers"
+  ],
+  "hook": "A data-entry or typing job promises high daily pay but asks for software, security or training charges first.",
+  "red_flags": [
+   "high pay for easy work",
+   "upfront charge",
+   "no interview",
+   "chat-app only"
+  ],
+  "pressure_tactics": [
+   "urgency"
+  ],
+  "payment_methods": [
+   "upi"
+  ],
+  "safe_response": [
+   "Do not pay for a job",
+   "Check for a registered company and address",
+   "Search the offer text with the word scam"
+  ],
+  "ai_enabled": false,
+  "date": "2026-09-01",
+  "source_url": "",
+  "source_name": "ScamLens seed",
+  "confidence": 1.0
+ },
+ {
+  "id": "telegram-job-offer",
+  "name": "Unsolicited Telegram or WhatsApp job offer",
+  "origin": "seed",
+  "channels": [
+   "telegram",
+   "whatsapp"
+  ],
+  "targets": [
+   "job seekers"
+  ],
+  "hook": "A stranger messages about a part-time job with daily pay, then moves you to a group with tasks and deposits.",
+  "red_flags": [
+   "cold message about a job",
+   "daily payouts",
+   "move to Telegram",
+   "deposit requests"
+  ],
+  "pressure_tactics": [
+   "greed"
+  ],
+  "payment_methods": [
+   "crypto",
+   "upi"
+  ],
+  "safe_response": [
+   "Ignore unsolicited job messages",
+   "Block and report the sender",
+   "Apply only through verified portals"
+  ],
+  "ai_enabled": false,
+  "date": "2026-09-01",
+  "source_url": "",
+  "source_name": "ScamLens seed",
+  "confidence": 1.0
+ },
+ {
+  "id": "overpayment-fake-cheque",
+  "name": "Overpayment or fake payment confirmation",
+  "origin": "seed",
+  "channels": [
+   "marketplace",
+   "chat"
+  ],
+  "targets": [
+   "sellers"
+  ],
+  "hook": "A buyer 'pays' more than the price or sends a fake payment screenshot and asks you to refund the difference or ship first.",
+  "red_flags": [
+   "overpaid on purpose",
+   "screenshot instead of bank alert",
+   "refund the extra",
+   "urgent shipping"
+  ],
+  "pressure_tactics": [
+   "urgency"
+  ],
+  "payment_methods": [
+   "upi",
+   "bank_transfer"
+  ],
+  "safe_response": [
+   "Check your own bank balance, not a screenshot",
+   "Never refund before money is in your account",
+   "Use platform payments"
+  ],
+  "ai_enabled": false,
+  "date": "2026-09-01",
+  "source_url": "",
+  "source_name": "ScamLens seed",
+  "confidence": 1.0
+ },
+ {
+  "id": "upi-collect-request-refund",
+  "name": "UPI collect request disguised as a refund or advance",
+  "origin": "seed",
+  "channels": [
+   "marketplace",
+   "sms",
+   "whatsapp"
+  ],
+  "targets": [
+   "sellers",
+   "everyone"
+  ],
+  "hook": "You are told to approve a request or scan a QR to receive money. Receiving money never needs a PIN, approving a collect request sends money out.",
+  "red_flags": [
+   "scan QR to receive money",
+   "enter UPI PIN to receive",
+   "collect request",
+   "refund to receive"
+  ],
+  "pressure_tactics": [
+   "urgency"
+  ],
+  "payment_methods": [
+   "upi"
+  ],
+  "safe_response": [
+   "Never enter a UPI PIN to receive money",
+   "Decline unknown collect requests",
+   "Report the request in your UPI app"
+  ],
+  "ai_enabled": false,
+  "date": "2026-09-01",
+  "source_url": "",
+  "source_name": "ScamLens seed",
+  "confidence": 1.0
+ },
+ {
+  "id": "fake-kyc-update",
+  "name": "Fake KYC or account-blocked message",
+  "origin": "seed",
+  "channels": [
+   "sms",
+   "whatsapp",
+   "email"
+  ],
+  "targets": [
+   "bank customers"
+  ],
+  "hook": "A message says your bank, wallet or SIM KYC has expired and gives a link or number to update it, which harvests your details and OTP.",
+  "red_flags": [
+   "account will be blocked",
+   "link to update KYC",
+   "asks for OTP, PAN or card",
+   "generic greeting"
+  ],
+  "pressure_tactics": [
+   "urgency",
+   "authority"
+  ],
+  "payment_methods": [],
+  "safe_response": [
+   "Do not click the link",
+   "Open your bank's own app or site",
+   "Call the number on your card"
+  ],
+  "ai_enabled": false,
+  "date": "2026-09-01",
+  "source_url": "",
+  "source_name": "ScamLens seed",
+  "confidence": 1.0
+ },
+ {
+  "id": "utility-disconnection",
+  "name": "Electricity or utility disconnection threat",
+  "origin": "seed",
+  "channels": [
+   "sms"
+  ],
+  "targets": [
+   "households"
+  ],
+  "hook": "A message claims your power or gas will be cut tonight unless you call a number or install an app to pay.",
+  "red_flags": [
+   "connection cut tonight",
+   "personal mobile number to call",
+   "pay via app link",
+   "pending bill you do not recognise"
+  ],
+  "pressure_tactics": [
+   "urgency"
+  ],
+  "payment_methods": [
+   "upi"
+  ],
+  "safe_response": [
+   "Check the bill on the provider's official site or app",
+   "Ignore personal numbers",
+   "Visit the local office if unsure"
+  ],
+  "ai_enabled": false,
+  "date": "2026-09-01",
+  "source_url": "",
+  "source_name": "ScamLens seed",
+  "confidence": 1.0
+ },
+ {
+  "id": "courier-customs-parcel",
+  "name": "Parcel held at customs or courier fee",
+  "origin": "seed",
+  "channels": [
+   "sms",
+   "email",
+   "call"
+  ],
+  "targets": [
+   "everyone"
+  ],
+  "hook": "A courier or customs 'officer' says a parcel is stuck and you must pay a clearance or redelivery fee through a link.",
+  "red_flags": [
+   "parcel you did not order",
+   "clearance or redelivery fee",
+   "link to pay",
+   "pressure to pay today"
+  ],
+  "pressure_tactics": [
+   "urgency",
+   "authority"
+  ],
+  "payment_methods": [
+   "upi",
+   "card"
+  ],
+  "safe_response": [
+   "Track the parcel on the courier's real site",
+   "Do not pay through message links",
+   "Contact the courier through its official number"
+  ],
+  "ai_enabled": false,
+  "date": "2026-09-01",
+  "source_url": "",
+  "source_name": "ScamLens seed",
+  "confidence": 1.0
+ },
+ {
+  "id": "digital-arrest",
+  "name": "'Digital arrest' by fake police or customs",
+  "origin": "seed",
+  "channels": [
+   "call",
+   "whatsapp"
+  ],
+  "targets": [
+   "everyone",
+   "older adults"
+  ],
+  "hook": "Callers pose as police, customs or CBI, claim you are linked to a crime, keep you on a video call, and demand money to 'clear' your name. No agency arrests people over video call.",
+  "red_flags": [
+   "authority on video call",
+   "you must stay on the call",
+   "do not tell anyone",
+   "pay to clear your name"
+  ],
+  "pressure_tactics": [
+   "authority",
+   "secrecy",
+   "urgency"
+  ],
+  "payment_methods": [
+   "bank_transfer"
+  ],
+  "safe_response": [
+   "Hang up immediately",
+   "No real agency demands money on a call",
+   "Call 1930 or report at cybercrime.gov.in in India",
+   "Tell a family member"
+  ],
+  "ai_enabled": false,
+  "date": "2026-09-01",
+  "source_url": "",
+  "source_name": "ScamLens seed",
+  "confidence": 1.0
+ },
+ {
+  "id": "bank-fraud-dept-callback",
+  "name": "Fake bank fraud-department call",
+  "origin": "seed",
+  "channels": [
+   "call",
+   "sms"
+  ],
+  "targets": [
+   "bank customers"
+  ],
+  "hook": "Someone claims to be from your bank's fraud team, says there was suspicious activity, and asks you to move money to a 'safe account' or share an OTP.",
+  "red_flags": [
+   "safe account",
+   "asks for OTP or PIN",
+   "call from unknown number",
+   "urgent security alert"
+  ],
+  "pressure_tactics": [
+   "authority",
+   "urgency"
+  ],
+  "payment_methods": [
+   "bank_transfer"
+  ],
+  "safe_response": [
+   "Hang up and call the number on your card",
+   "Banks never ask for PIN or OTP",
+   "Never transfer money to a 'safe account'"
+  ],
+  "ai_enabled": false,
+  "date": "2026-09-01",
+  "source_url": "",
+  "source_name": "ScamLens seed",
+  "confidence": 1.0
+ },
+ {
+  "id": "tech-support-remote-access",
+  "name": "Tech support or refund scam needing remote access",
+  "origin": "seed",
+  "channels": [
+   "call",
+   "popup"
+  ],
+  "targets": [
+   "everyone"
+  ],
+  "hook": "A pop-up or caller says your device or account has a problem and asks you to install a remote-control app to fix it or issue a refund.",
+  "red_flags": [
+   "asks to install AnyDesk or similar",
+   "pop-up with phone number",
+   "refund needs your bank login",
+   "caller you did not ask for"
+  ],
+  "pressure_tactics": [
+   "urgency",
+   "authority"
+  ],
+  "payment_methods": [],
+  "safe_response": [
+   "Do not install remote apps for strangers",
+   "Close the pop-up and restart",
+   "If you did, disconnect internet and call your bank"
+  ],
+  "ai_enabled": false,
+  "date": "2026-09-01",
+  "source_url": "",
+  "source_name": "ScamLens seed",
+  "confidence": 1.0
+ },
+ {
+  "id": "guaranteed-returns-investment",
+  "name": "Guaranteed returns investment",
+  "origin": "seed",
+  "channels": [
+   "telegram",
+   "whatsapp",
+   "social"
+  ],
+  "targets": [
+   "everyone"
+  ],
+  "hook": "A scheme promises fixed high returns, often daily or weekly, with 'limited slots'. Early withdrawals work, then the platform disappears.",
+  "red_flags": [
+   "guaranteed percentage returns",
+   "limited slots",
+   "fake dashboard",
+   "telegram tipsters"
+  ],
+  "pressure_tactics": [
+   "greed",
+   "urgency"
+  ],
+  "payment_methods": [
+   "crypto",
+   "upi"
+  ],
+  "safe_response": [
+   "No legitimate investment guarantees returns",
+   "Check registration with the market regulator",
+   "Do not invest on a stranger's advice"
+  ],
+  "ai_enabled": false,
+  "date": "2026-09-01",
+  "source_url": "",
+  "source_name": "ScamLens seed",
+  "confidence": 1.0
+ },
+ {
+  "id": "relationship-investment",
+  "name": "Relationship-then-invest scam",
+  "origin": "seed",
+  "channels": [
+   "social",
+   "dating",
+   "whatsapp"
+  ],
+  "targets": [
+   "everyone"
+  ],
+  "hook": "A friendly stranger builds trust over weeks and then introduces a 'sure' crypto or trading platform.",
+  "red_flags": [
+   "stranger becomes close quickly",
+   "never meets or video calls",
+   "pushes a trading app",
+   "small early withdrawals"
+  ],
+  "pressure_tactics": [
+   "emotional"
+  ],
+  "payment_methods": [
+   "crypto"
+  ],
+  "safe_response": [
+   "Do not move money because of someone you only met online",
+   "Reverse-search their photos",
+   "Talk to a trusted person"
+  ],
+  "ai_enabled": false,
+  "date": "2026-09-01",
+  "source_url": "",
+  "source_name": "ScamLens seed",
+  "confidence": 1.0
+ },
+ {
+  "id": "romance-money-request",
+  "name": "Romance scam asking for money",
+  "origin": "seed",
+  "channels": [
+   "dating",
+   "social"
+  ],
+  "targets": [
+   "everyone"
+  ],
+  "hook": "An online partner invents emergencies, travel costs or customs fees and asks for transfers.",
+  "red_flags": [
+   "never on live video",
+   "sudden emergency",
+   "asks for gift cards or transfers",
+   "declares love fast"
+  ],
+  "pressure_tactics": [
+   "emotional",
+   "urgency"
+  ],
+  "payment_methods": [
+   "gift_card",
+   "bank_transfer"
+  ],
+  "safe_response": [
+   "Pause all payments",
+   "Ask for a live video call",
+   "Discuss with a friend"
+  ],
+  "ai_enabled": false,
+  "date": "2026-09-01",
+  "source_url": "",
+  "source_name": "ScamLens seed",
+  "confidence": 1.0
+ },
+ {
+  "id": "voice-clone-family-emergency",
+  "name": "Voice-clone family emergency",
+  "origin": "seed",
+  "channels": [
+   "call",
+   "whatsapp"
+  ],
+  "targets": [
+   "parents",
+   "older adults"
+  ],
+  "hook": "A call or voice note sounds like a relative in trouble and asks for urgent money. Scammers can clone a voice from a short clip.",
+  "red_flags": [
+   "relative in trouble",
+   "new number",
+   "do not tell others",
+   "urgent transfer"
+  ],
+  "pressure_tactics": [
+   "emotional",
+   "urgency",
+   "secrecy"
+  ],
+  "payment_methods": [
+   "upi",
+   "bank_transfer"
+  ],
+  "safe_response": [
+   "Hang up and call the person on their known number",
+   "Agree a family safe word",
+   "Ask a question only they could answer"
+  ],
+  "ai_enabled": true,
+  "date": "2026-09-01",
+  "source_url": "",
+  "source_name": "ScamLens seed",
+  "confidence": 1.0
+ },
+ {
+  "id": "new-number-family-impersonation",
+  "name": "'Hi Mum, this is my new number' texts",
+  "origin": "seed",
+  "channels": [
+   "sms",
+   "whatsapp"
+  ],
+  "targets": [
+   "parents"
+  ],
+  "hook": "A text claims to be your child or relative with a new number and soon asks for urgent help paying a bill.",
+  "red_flags": [
+   "new number message",
+   "urgent bill",
+   "unable to call",
+   "asks for transfer"
+  ],
+  "pressure_tactics": [
+   "emotional",
+   "urgency"
+  ],
+  "payment_methods": [
+   "upi",
+   "bank_transfer"
+  ],
+  "safe_response": [
+   "Call your relative on the old number",
+   "Do not send money first",
+   "Block and report the sender"
+  ],
+  "ai_enabled": false,
+  "date": "2026-09-01",
+  "source_url": "",
+  "source_name": "ScamLens seed",
+  "confidence": 1.0
+ },
+ {
+  "id": "ceo-gift-card",
+  "name": "Boss or CEO gift-card or transfer request",
+  "origin": "seed",
+  "channels": [
+   "email",
+   "whatsapp"
+  ],
+  "targets": [
+   "employees"
+  ],
+  "hook": "A message from a 'boss' or senior person asks you to urgently buy gift cards or pay an invoice and keep it quiet.",
+  "red_flags": [
+   "boss asks for urgent favour",
+   "gift cards",
+   "do not call me",
+   "new email or number"
+  ],
+  "pressure_tactics": [
+   "authority",
+   "secrecy",
+   "urgency"
+  ],
+  "payment_methods": [
+   "gift_card"
+  ],
+  "safe_response": [
+   "Confirm via a known channel",
+   "Follow normal payment approval",
+   "Tell your manager or IT"
+  ],
+  "ai_enabled": false,
+  "date": "2026-09-01",
+  "source_url": "",
+  "source_name": "ScamLens seed",
+  "confidence": 1.0
+ },
+ {
+  "id": "lottery-prize-processing-fee",
+  "name": "Lottery or prize that needs a fee",
+  "origin": "seed",
+  "channels": [
+   "sms",
+   "email",
+   "whatsapp"
+  ],
+  "targets": [
+   "everyone"
+  ],
+  "hook": "You have 'won' something you never entered and must pay tax or a processing fee to claim it.",
+  "red_flags": [
+   "you won a draw you did not enter",
+   "fee to claim",
+   "contact via chat",
+   "celebrity brand"
+  ],
+  "pressure_tactics": [
+   "greed",
+   "urgency"
+  ],
+  "payment_methods": [
+   "upi"
+  ],
+  "safe_response": [
+   "Ignore it",
+   "Real prizes do not need fees",
+   "Block and report"
+  ],
+  "ai_enabled": false,
+  "date": "2026-09-01",
+  "source_url": "",
+  "source_name": "ScamLens seed",
+  "confidence": 1.0
+ },
+ {
+  "id": "scholarship-grant-fee",
+  "name": "Fake scholarship or government grant fee",
+  "origin": "seed",
+  "channels": [
+   "sms",
+   "whatsapp"
+  ],
+  "targets": [
+   "students"
+  ],
+  "hook": "A message promises a scholarship, subsidy or free laptop under a government scheme if you pay a small processing fee.",
+  "red_flags": [
+   "free benefit scheme",
+   "processing fee",
+   "link not on a .gov site",
+   "personal details form"
+  ],
+  "pressure_tactics": [
+   "greed"
+  ],
+  "payment_methods": [
+   "upi"
+  ],
+  "safe_response": [
+   "Check the official government portal",
+   "Never pay to receive a benefit",
+   "Ask your college office"
+  ],
+  "ai_enabled": false,
+  "date": "2026-09-01",
+  "source_url": "",
+  "source_name": "ScamLens seed",
+  "confidence": 1.0
+ },
+ {
+  "id": "fake-loan-app",
+  "name": "Predatory instant-loan app",
+  "origin": "seed",
+  "channels": [
+   "app",
+   "sms"
+  ],
+  "targets": [
+   "students",
+   "low-income"
+  ],
+  "hook": "An app gives a quick small loan, takes contacts and photos, then harasses you and your contacts with threats and edited pictures.",
+  "red_flags": [
+   "asks for contacts and gallery access",
+   "tiny loan, huge repayment",
+   "threats to message contacts",
+   "app outside official store"
+  ],
+  "pressure_tactics": [
+   "fear"
+  ],
+  "payment_methods": [
+   "upi"
+  ],
+  "safe_response": [
+   "Do not install it",
+   "Revoke app permissions",
+   "Report harassment to the cyber cell"
+  ],
+  "ai_enabled": false,
+  "date": "2026-09-01",
+  "source_url": "",
+  "source_name": "ScamLens seed",
+  "confidence": 1.0
+ },
+ {
+  "id": "marketplace-fake-payment-screenshot",
+  "name": "Marketplace buyer sends a fake payment screenshot",
+  "origin": "seed",
+  "channels": [
+   "marketplace"
+  ],
+  "targets": [
+   "sellers"
+  ],
+  "hook": "A buyer shows an edited payment screenshot, then urges you to hand over the item before the money arrives.",
+  "red_flags": [
+   "screenshot only",
+   "buyer in a hurry",
+   "courier pickup",
+   "asks to ship first"
+  ],
+  "pressure_tactics": [
+   "urgency"
+  ],
+  "payment_methods": [
+   "upi"
+  ],
+  "safe_response": [
+   "Confirm the credit in your own banking app",
+   "Do not ship before funds clear",
+   "Meet in a safe public place"
+  ],
+  "ai_enabled": false,
+  "date": "2026-09-01",
+  "source_url": "",
+  "source_name": "ScamLens seed",
+  "confidence": 1.0
+ },
+ {
+  "id": "marketplace-advance-or-token",
+  "name": "Seller demands advance, token or delivery fee",
+  "origin": "seed",
+  "channels": [
+   "marketplace"
+  ],
+  "targets": [
+   "buyers"
+  ],
+  "hook": "A listing is very cheap, and the seller asks for an advance, token or delivery charge before you can see the item.",
+  "red_flags": [
+   "price far below market",
+   "advance before viewing",
+   "seller far away",
+   "stock photos"
+  ],
+  "pressure_tactics": [
+   "urgency"
+  ],
+  "payment_methods": [
+   "upi"
+  ],
+  "safe_response": [
+   "Never pay before inspecting",
+   "Prefer cash on delivery or in-person",
+   "Reverse-search the photos"
+  ],
+  "ai_enabled": false,
+  "date": "2026-09-01",
+  "source_url": "",
+  "source_name": "ScamLens seed",
+  "confidence": 1.0
+ },
+ {
+  "id": "army-officer-transfer",
+  "name": "'Army officer on transfer' selling cheap",
+  "origin": "seed",
+  "channels": [
+   "marketplace"
+  ],
+  "targets": [
+   "buyers"
+  ],
+  "hook": "A seller claims to be a transferred soldier selling a vehicle or furniture cheaply and uses the uniform to build trust, then asks for an advance.",
+  "red_flags": [
+   "uniform photo",
+   "urgent transfer",
+   "below-market price",
+   "advance for courier"
+  ],
+  "pressure_tactics": [
+   "authority",
+   "urgency"
+  ],
+  "payment_methods": [
+   "upi"
+  ],
+  "safe_response": [
+   "Do not pay an advance",
+   "Meet and inspect first",
+   "Report the listing"
+  ],
+  "ai_enabled": false,
+  "date": "2026-09-01",
+  "source_url": "",
+  "source_name": "ScamLens seed",
+  "confidence": 1.0
+ },
+ {
+  "id": "rental-deposit",
+  "name": "Rental or flat deposit scam",
+  "origin": "seed",
+  "channels": [
+   "marketplace",
+   "email"
+  ],
+  "targets": [
+   "students",
+   "tenants"
+  ],
+  "hook": "A flat is listed far below market rent and the 'owner' asks for a booking deposit before a viewing, often claiming to be abroad.",
+  "red_flags": [
+   "owner abroad",
+   "deposit before viewing",
+   "too cheap",
+   "keys by courier"
+  ],
+  "pressure_tactics": [
+   "urgency"
+  ],
+  "payment_methods": [
+   "upi",
+   "bank_transfer"
+  ],
+  "safe_response": [
+   "View the property in person",
+   "Verify ownership",
+   "Do not pay before a signed agreement"
+  ],
+  "ai_enabled": false,
+  "date": "2026-09-01",
+  "source_url": "",
+  "source_name": "ScamLens seed",
+  "confidence": 1.0
+ },
+ {
+  "id": "fake-customer-care-number",
+  "name": "Fake customer-care number in search results",
+  "origin": "seed",
+  "channels": [
+   "search",
+   "social",
+   "call"
+  ],
+  "targets": [
+   "everyone"
+  ],
+  "hook": "A search result or social post shows a helpline number that belongs to scammers who then ask for OTPs or remote access.",
+  "red_flags": [
+   "number from search snippet or social post",
+   "asks to install an app",
+   "wants OTP or card details"
+  ],
+  "pressure_tactics": [
+   "urgency"
+  ],
+  "payment_methods": [],
+  "safe_response": [
+   "Use contact details from the company's own app or website",
+   "Never share OTPs",
+   "If you did, call your bank at once"
+  ],
+  "ai_enabled": false,
+  "date": "2026-09-01",
+  "source_url": "",
+  "source_name": "ScamLens seed",
+  "confidence": 1.0
+ },
+ {
+  "id": "phishing-login-page",
+  "name": "Phishing login page",
+  "origin": "seed",
+  "channels": [
+   "email",
+   "sms"
+  ],
+  "targets": [
+   "everyone"
+  ],
+  "hook": "A link leads to a page that looks like a known login but is on another domain and steals your credentials.",
+  "red_flags": [
+   "unexpected login request",
+   "domain slightly different",
+   "urgent account warning",
+   "http or odd domain ending"
+  ],
+  "pressure_tactics": [
+   "urgency"
+  ],
+  "payment_methods": [],
+  "safe_response": [
+   "Do not enter credentials",
+   "Type the real address yourself",
+   "Report phishing to the provider"
+  ],
+  "ai_enabled": false,
+  "date": "2026-09-01",
+  "source_url": "",
+  "source_name": "ScamLens seed",
+  "confidence": 1.0
+ },
+ {
+  "id": "lookalike-shopping-site",
+  "name": "Lookalike shopping site",
+  "origin": "seed",
+  "channels": [
+   "social",
+   "ads"
+  ],
+  "targets": [
+   "shoppers"
+  ],
+  "hook": "A shop with deep discounts and a name close to a famous brand takes payment and ships nothing.",
+  "red_flags": [
+   "huge discounts",
+   "new domain",
+   "only UPI or bank transfer",
+   "no real contact details"
+  ],
+  "pressure_tactics": [
+   "urgency"
+  ],
+  "payment_methods": [
+   "upi"
+  ],
+  "safe_response": [
+   "Check domain age and reviews",
+   "Pay by cash on delivery or card with protection",
+   "Close the site if unsure"
+  ],
+  "ai_enabled": false,
+  "date": "2026-09-01",
+  "source_url": "",
+  "source_name": "ScamLens seed",
+  "confidence": 1.0
+ },
+ {
+  "id": "ai-generated-listing-photos",
+  "name": "Reused or AI-generated listing photos",
+  "origin": "seed",
+  "channels": [
+   "marketplace"
+  ],
+  "targets": [
+   "buyers"
+  ],
+  "hook": "A listing uses stock or AI-generated pictures and a perfect description to look real.",
+  "red_flags": [
+   "images found elsewhere",
+   "no photos with a date or tag",
+   "seller avoids a live video",
+   "too perfect"
+  ],
+  "pressure_tactics": [],
+  "payment_methods": [],
+  "safe_response": [
+   "Reverse-search the images",
+   "Ask for a live video of the item",
+   "Pay only after inspection"
+  ],
+  "ai_enabled": true,
+  "date": "2026-09-01",
+  "source_url": "",
+  "source_name": "ScamLens seed",
+  "confidence": 1.0
+ },
+ {
+  "id": "deepfake-video-call",
+  "name": "Deepfake video-call impersonation",
+  "origin": "seed",
+  "channels": [
+   "video",
+   "whatsapp"
+  ],
+  "targets": [
+   "employees",
+   "families"
+  ],
+  "hook": "A video call shows a familiar face asking for money or action, but it is a deepfake or replayed video.",
+  "red_flags": [
+   "unusual request on video",
+   "slight lip-sync or glitches",
+   "insists on speed",
+   "new account or number"
+  ],
+  "pressure_tactics": [
+   "authority",
+   "urgency"
+  ],
+  "payment_methods": [
+   "bank_transfer"
+  ],
+  "safe_response": [
+   "Verify through a second channel",
+   "Ask them to do something unscripted",
+   "Follow your company's payment procedure"
+  ],
+  "ai_enabled": true,
+  "date": "2026-09-01",
+  "source_url": "",
+  "source_name": "ScamLens seed",
+  "confidence": 1.0
+ },
+ {
+  "id": "sim-swap-otp",
+  "name": "SIM swap or 'upgrade your SIM' OTP",
+  "origin": "seed",
+  "channels": [
+   "call",
+   "sms"
+  ],
+  "targets": [
+   "everyone"
+  ],
+  "hook": "Callers say your SIM must be upgraded (such as to 5G) and ask for a code, which actually transfers your number to them.",
+  "red_flags": [
+   "upgrade SIM request",
+   "asks to share a code",
+   "threatens to block the SIM"
+  ],
+  "pressure_tactics": [
+   "urgency"
+  ],
+  "payment_methods": [],
+  "safe_response": [
+   "Never share SIM or OTP codes",
+   "Contact your operator through its app",
+   "If service drops suddenly, call the operator"
+  ],
+  "ai_enabled": false,
+  "date": "2026-09-01",
+  "source_url": "",
+  "source_name": "ScamLens seed",
+  "confidence": 1.0
+ },
+ {
+  "id": "account-takeover-vote-link",
+  "name": "Friend's hacked account sends a link",
+  "origin": "seed",
+  "channels": [
+   "social",
+   "whatsapp"
+  ],
+  "targets": [
+   "students"
+  ],
+  "hook": "A hacked friend's account sends 'vote for me' or 'is this you?' links that steal your login, then spreads further.",
+  "red_flags": [
+   "unexpected link from a friend",
+   "urgent vote or watch",
+   "asks to log in again"
+  ],
+  "pressure_tactics": [
+   "curiosity"
+  ],
+  "payment_methods": [],
+  "safe_response": [
+   "Do not click",
+   "Ask the friend by another channel",
+   "Report the compromised account"
+  ],
+  "ai_enabled": false,
+  "date": "2026-09-01",
+  "source_url": "",
+  "source_name": "ScamLens seed",
+  "confidence": 1.0
+ },
+ {
+  "id": "fake-charity-appeal",
+  "name": "Fake charity or disaster appeal",
+  "origin": "seed",
+  "channels": [
+   "social",
+   "whatsapp"
+  ],
+  "targets": [
+   "everyone"
+  ],
+  "hook": "A moving appeal collects donations through a personal account after a disaster.",
+  "red_flags": [
+   "personal account for donations",
+   "emotional pressure",
+   "no registration details"
+  ],
+  "pressure_tactics": [
+   "emotional",
+   "urgency"
+  ],
+  "payment_methods": [
+   "upi"
+  ],
+  "safe_response": [
+   "Donate only through verified organisations",
+   "Check the charity's registration",
+   "Avoid links from forwards"
+  ],
+  "ai_enabled": false,
+  "date": "2026-09-01",
+  "source_url": "",
+  "source_name": "ScamLens seed",
+  "confidence": 1.0
+ },
+ {
+  "id": "tax-refund-phishing",
+  "name": "Tax refund phishing",
+  "origin": "seed",
+  "channels": [
+   "sms",
+   "email"
+  ],
+  "targets": [
+   "taxpayers"
+  ],
+  "hook": "A message says you have a tax refund pending and sends you to a form that collects bank and card details.",
+  "red_flags": [
+   "unexpected refund",
+   "form for bank details",
+   "non-government link"
+  ],
+  "pressure_tactics": [
+   "greed"
+  ],
+  "payment_methods": [],
+  "safe_response": [
+   "Check refund status on the official tax portal",
+   "The tax department does not ask for card details by message",
+   "Delete the message"
+  ],
+  "ai_enabled": false,
+  "date": "2026-09-01",
+  "source_url": "",
+  "source_name": "ScamLens seed",
+  "confidence": 1.0
+ },
+ {
+  "id": "fake-subscription-invoice",
+  "name": "Fake subscription renewal invoice",
+  "origin": "seed",
+  "channels": [
+   "email"
+  ],
+  "targets": [
+   "everyone"
+  ],
+  "hook": "An invoice for a service you never bought lists a phone number to cancel, which leads to a remote-access or refund scam.",
+  "red_flags": [
+   "invoice for something unbought",
+   "call to cancel",
+   "large amount"
+  ],
+  "pressure_tactics": [
+   "urgency"
+  ],
+  "payment_methods": [],
+  "safe_response": [
+   "Do not call the number",
+   "Check your real accounts",
+   "Mark as spam"
+  ],
+  "ai_enabled": false,
+  "date": "2026-09-01",
+  "source_url": "",
+  "source_name": "ScamLens seed",
+  "confidence": 1.0
+ },
+ {
+  "id": "wrong-number-intro",
+  "name": "'Wrong number' friendly intro",
+  "origin": "seed",
+  "channels": [
+   "sms",
+   "whatsapp"
+  ],
+  "targets": [
+   "everyone"
+  ],
+  "hook": "A stranger texts 'wrong number' and then builds a conversation that leads to investments or money requests.",
+  "red_flags": [
+   "wrong number opener",
+   "friendly pushing",
+   "moves to another app"
+  ],
+  "pressure_tactics": [
+   "emotional"
+  ],
+  "payment_methods": [],
+  "safe_response": [
+   "Do not reply",
+   "Block the number",
+   "Never discuss finances with strangers"
+  ],
+  "ai_enabled": false,
+  "date": "2026-09-01",
+  "source_url": "",
+  "source_name": "ScamLens seed",
+  "confidence": 1.0
+ },
+ {
+  "id": "recovery-scam",
+  "name": "Recovery scam for lost money",
+  "origin": "seed",
+  "channels": [
+   "email",
+   "social",
+   "call"
+  ],
+  "targets": [
+   "scam victims"
+  ],
+  "hook": "After a scam, someone offers to recover your money for a fee, which is a second scam.",
+  "red_flags": [
+   "recovery for a fee",
+   "guaranteed refund",
+   "unsolicited contact"
+  ],
+  "pressure_tactics": [
+   "urgency"
+  ],
+  "payment_methods": [
+   "upi",
+   "crypto"
+  ],
+  "safe_response": [
+   "Report to the police and your bank",
+   "Do not pay recovery agents",
+   "Use official complaint portals"
+  ],
+  "ai_enabled": false,
+  "date": "2026-09-01",
+  "source_url": "",
+  "source_name": "ScamLens seed",
+  "confidence": 1.0
+ },
+ {
+  "id": "fake-ai-trading-bot",
+  "name": "Fake AI trading bot",
+  "origin": "seed",
+  "channels": [
+   "social",
+   "telegram"
+  ],
+  "targets": [
+   "everyone"
+  ],
+  "hook": "A 'proprietary AI bot' promises automated profits and shows a fake dashboard. Deposits vanish.",
+  "red_flags": [
+   "AI bot guaranteed profit",
+   "fake dashboard",
+   "deposit to start",
+   "testimonials"
+  ],
+  "pressure_tactics": [
+   "greed"
+  ],
+  "payment_methods": [
+   "crypto"
+  ],
+  "safe_response": [
+   "No AI guarantees profit",
+   "Check regulator registration",
+   "Do not deposit"
+  ],
+  "ai_enabled": true,
+  "date": "2026-09-01",
+  "source_url": "",
+  "source_name": "ScamLens seed",
+  "confidence": 1.0
+ },
+ {
+  "id": "ai-written-spear-phishing",
+  "name": "AI-written personalised phishing",
+  "origin": "seed",
+  "channels": [
+   "email"
+  ],
+  "targets": [
+   "employees",
+   "students"
+  ],
+  "hook": "A well-written email uses your name, job and recent activity to ask for a login, payment or file open.",
+  "red_flags": [
+   "very polished but unexpected",
+   "uses your personal details",
+   "urgent link or attachment",
+   "sender domain slightly off"
+  ],
+  "pressure_tactics": [
+   "urgency",
+   "authority"
+  ],
+  "payment_methods": [],
+  "safe_response": [
+   "Verify with the sender by another channel",
+   "Check the real sender domain",
+   "Do not open unexpected attachments"
+  ],
+  "ai_enabled": true,
+  "date": "2026-09-01",
+  "source_url": "",
+  "source_name": "ScamLens seed",
+  "confidence": 1.0
+ },
+ {
+  "id": "fake-ai-support-bot",
+  "name": "Fake AI customer-support chatbot",
+  "origin": "seed",
+  "channels": [
+   "chat",
+   "social"
+  ],
+  "targets": [
+   "everyone"
+  ],
+  "hook": "A chat widget or social account pretending to be official support asks you to 'verify' with OTP or card details.",
+  "red_flags": [
+   "unofficial chat",
+   "asks for secrets",
+   "unusual handle"
+  ],
+  "pressure_tactics": [
+   "urgency"
+  ],
+  "payment_methods": [],
+  "safe_response": [
+   "Use only the company's official app or site",
+   "Never give OTPs to chat support",
+   "Report the fake account"
+  ],
+  "ai_enabled": true,
+  "date": "2026-09-01",
+  "source_url": "",
+  "source_name": "ScamLens seed",
+  "confidence": 1.0
+ },
+ {
+  "id": "insurance-policy-bonus",
+  "name": "Insurance or policy maturity bonus call",
+  "origin": "seed",
+  "channels": [
+   "call"
+  ],
+  "targets": [
+   "older adults"
+  ],
+  "hook": "Callers say your old policy has a bonus that needs a tax or processing payment.",
+  "red_flags": [
+   "bonus you never expected",
+   "tax payment first",
+   "asks for personal data"
+  ],
+  "pressure_tactics": [
+   "greed"
+  ],
+  "payment_methods": [
+   "bank_transfer"
+  ],
+  "safe_response": [
+   "Contact the insurer directly",
+   "Do not pay to receive a payout",
+   "Report the call"
+  ],
+  "ai_enabled": false,
+  "date": "2026-09-01",
+  "source_url": "",
+  "source_name": "ScamLens seed",
+  "confidence": 1.0
+ },
+ {
+  "id": "fake-visa-abroad-job",
+  "name": "Overseas job or visa offer for a fee",
+  "origin": "seed",
+  "channels": [
+   "whatsapp",
+   "social"
+  ],
+  "targets": [
+   "job seekers"
+  ],
+  "hook": "An agent promises a visa or foreign job for an upfront fee, then disappears or abandons you abroad.",
+  "red_flags": [
+   "fee before contract",
+   "unregistered agent",
+   "guaranteed visa"
+  ],
+  "pressure_tactics": [
+   "urgency"
+  ],
+  "payment_methods": [
+   "cash",
+   "upi"
+  ],
+  "safe_response": [
+   "Check the agent against the government's registered list",
+   "Never pay in cash",
+   "Insist on a written contract"
+  ],
+  "ai_enabled": false,
+  "date": "2026-09-01",
+  "source_url": "",
+  "source_name": "ScamLens seed",
+  "confidence": 1.0
+ }
+]

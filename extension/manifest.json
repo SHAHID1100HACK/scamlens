@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "ScamLens",
+  "version": "0.1.0",
+  "description": "Explainable scam-risk checks for jobs, listings, chats, and links.",
+  "permissions": ["contextMenus", "activeTab", "scripting", "storage"],
+  "host_permissions": ["http://localhost:7860/*", "https://__SPACE_HOST__/*"],
+  "background": { "service_worker": "background.js", "scripts": ["background.js"], "type": "module" },
+  "action": { "default_popup": "popup.html", "default_title": "ScamLens" },
+  "content_security_policy": { "extension_pages": "script-src 'self'; object-src 'self'" },
+  "icons": { "16": "icons/16.png", "48": "icons/48.png", "128": "icons/128.png" },
+  "browser_specific_settings": { "gecko": { "id": "scamlens@example.com" } }
+}

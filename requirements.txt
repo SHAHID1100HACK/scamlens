@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+pydantic>=2
+httpx
+scikit-learn
+joblib
+numpy
+rapidfuzz
+tldextract

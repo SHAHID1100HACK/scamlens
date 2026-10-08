@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Install the ScamLens extension</title>
+<link rel="icon" type="image/svg+xml" href="/static/logo.svg">
+<link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+<header class="top"><a class="brand" href="/"><img src="/static/logo.svg" alt="" width="40" height="40">ScamLens</a><nav><a class="btn small" href="/">Back to the web demo</a></nav></header>
+<main>
+  <section class="hero"><h1>Install the ScamLens extension</h1>
+  <p>Select any suspicious text on a web page, right-click, and get an explained risk score with the warning signs highlighted right on the page. Works on Chrome, Edge, Brave and Firefox.</p></section>
+
+  <section class="card">
+    <h2>1. Download</h2>
+    <p><a id="dl" class="btn primary" href="#" download>Download extension (.zip)</a> <span id="ver" class="muted"></span></p>
+    <p class="muted small">SHA-256: <code id="sha">loading…</code></p>
+    <details><summary>Verify the download (optional)</summary>
+      <p>Linux/macOS: <code>sha256sum scamlens-extension-*.zip</code><br>Windows: <code>certutil -hashfile scamlens-extension-v0.1.0.zip SHA256</code><br>The result must match the value above.</p>
+    </details>
+  </section>
+
+  <section class="card">
+    <h2>2. Install in Chrome, Edge or Brave</h2>
+    <ol class="steps">
+      <li>Unzip the file. You should get a folder containing <code>manifest.json</code>.</li>
+      <li>Open <code>chrome://extensions</code> in your browser.</li>
+      <li>Turn on <strong>Developer mode</strong> (top-right switch).</li>
+      <li>Click <strong>Load unpacked</strong> and choose the unzipped folder. Pin ScamLens from the puzzle-piece menu.</li>
+    </ol>
+    <p class="note">Chrome shows a Developer-mode notice for extensions installed this way. That is expected for this free version, which is not in the Chrome Web Store.</p>
+  </section>
+
+  <section class="card">
+    <h2>Firefox</h2>
+    <ol class="steps">
+      <li>Unzip the file, then open <code>about:debugging#/runtime/this-firefox</code>.</li>
+      <li>Click <strong>Load Temporary Add-on</strong> and choose <code>manifest.json</code> from the unzipped folder.</li>
+      <li>Open <code>about:addons</code>, click ScamLens, then <strong>Permissions</strong>, and allow access to the ScamLens site.</li>
+    </ol>
+    <p class="note">Firefox removes temporary add-ons when it closes, so repeat step 2 after a restart.</p>
+  </section>
+
+  <section class="card">
+    <h2>3. Use it</h2>
+    <ul><li>Select text on any page → right-click → <strong>Check with ScamLens</strong>.</li><li>Or click the toolbar icon → <strong>Analyze this page</strong>.</li><li>Press <strong>Highlight on page</strong> to mark the exact warning phrases.</li></ul>
+  </section>
+
+  <section class="card">
+    <h2>What it can access, and why</h2>
+    <table><tr><th>Permission</th><th>Why</th></tr>
+      <tr><td>activeTab + scripting</td><td>Reads the text you select, or the page you ask it to analyze, only when you click. No always-on scripts.</td></tr>
+      <tr><td>contextMenus</td><td>The right-click “Check with ScamLens” item.</td></tr>
+      <tr><td>storage</td><td>Remembers your latest result for the popup.</td></tr>
+      <tr><td>One server address</td><td>Sends the text to the ScamLens server for analysis. Nothing else is contacted.</td></tr></table>
+    <p class="note">Card numbers and OTP-like values are masked inside the extension before anything is sent. Nothing is stored on the server. The extension is plain, readable JavaScript with no libraries, and the source is in the project's GitHub repository.</p>
+  </section>
+</main>
+<script src="/static/install.js"></script>
+</body></html>

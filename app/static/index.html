@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ScamLens – explainable scam checks</title>
+<meta name="description" content="Paste a job offer, listing, chat or link. ScamLens scores the scam risk and explains why.">
+<link rel="icon" type="image/svg+xml" href="/static/logo.svg">
+<link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="/"><img src="/static/logo.svg" alt="" width="40" height="40">ScamLens</a>
+  <nav><a class="btn small" href="#how">How it works</a><a class="btn small primary" href="/install">Get the extension</a></nav>
+</header>
+<main>
+  <section class="hero">
+    <svg class="doodle d1" viewBox="0 0 100 90" fill="none" stroke="#141414" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 8h80a8 8 0 0 1 8 8v40a8 8 0 0 1-8 8H42L28 78V64H10a8 8 0 0 1-8-8V16a8 8 0 0 1 8-8z" fill="#fff"/><path d="M50 18 72 54H28z" fill="#FF7A63"/><path d="M50 30v12"/><circle cx="50" cy="48" r="1.2" fill="#141414"/></svg>
+    <svg class="doodle d2" viewBox="0 0 100 90" fill="none" stroke="#141414" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 8h80a8 8 0 0 1 8 8v40a8 8 0 0 1-8 8H72L58 78V64H10a8 8 0 0 1-8-8V16a8 8 0 0 1 8-8z" fill="#fff"/><circle cx="42" cy="34" r="16" fill="#FF7A63"/><path d="m54 46 14 14" stroke-width="6"/><path d="M36 28a8 8 0 0 1 8-3"/></svg>
+    <h1>Is this a scam? <span>Get an answer you can verify.</span></h1>
+    <p>Paste a job offer, marketplace chat, message or link. ScamLens shows a risk score, quotes the exact warning signs, and tells you what to do next. It never says something is "safe".</p>
+  </section>
+
+  <section class="card check" aria-labelledby="checkTitle">
+    <h2 id="checkTitle">Check a message</h2>
+    <div class="row">
+      <label for="mode">Type</label>
+      <select id="mode">
+        <option value="auto">Auto-detect</option>
+        <option value="job_listing">Job or internship</option>
+        <option value="chat">Chat or message</option>
+        <option value="link">Link</option>
+      </select>
+    </div>
+    <label for="text" class="sr">Text to check</label>
+    <textarea id="text" rows="7" maxlength="6000" placeholder="Paste the suspicious text here (20 to 6000 characters)…"></textarea>
+    <div class="row between">
+      <span id="counter" class="muted">0 / 6000</span>
+      <button id="go" class="btn primary" type="button">Analyze</button>
+    </div>
+    <p class="muted small">Try an example:</p>
+    <div id="examples" class="chips" role="group" aria-label="Examples"></div>
+    <p class="note">Demo uses synthetic examples. Do not paste real personal data. Text is sent to an AI provider for analysis and is not stored by ScamLens.</p>
+  </section>
+
+  <section id="result" class="card hidden" aria-live="polite"></section>
+
+  <section class="card" aria-labelledby="kTitle">
+    <h2 id="kTitle">Knowledge base</h2>
+    <p id="kstatus" class="muted">Loading…</p>
+    <p class="muted small">New scam playbooks are pulled in automatically every few hours from one fixed, reviewed source. Visitors cannot trigger updates.</p>
+  </section>
+
+  <section class="card" id="how">
+    <details open><summary>How it works</summary>
+      <p>Four independent checks feed one score: rule-based evidence (fees, OTP requests, lookalike or brand-new domains), a trained text classifier, retrieval over a library of scam playbooks, and an AI model that reasons over all of it. Every highlighted warning is a verbatim quote from your text, and every playbook shown was actually retrieved. If the AI is unavailable ScamLens switches to limited mode and says so.</p>
+    </details>
+    <details><summary>Security &amp; privacy</summary>
+      <p>Nothing you submit is stored. Card numbers and OTP-like values are masked before analysis. Inputs are treated as untrusted: instructions hidden in your text cannot change the verdict, results render as plain text only, and requests are rate-limited. ScamLens can be wrong; always verify through official channels.</p>
+    </details>
+  </section>
+</main>
+<footer><p class="muted small">ScamLens · ForgeHacks 2026 · Inspired by Trustee (ESSEC 2025) · <a href="/install">Install extension</a></p></footer>
+<script src="/static/app.js"></script>
+</body>
+</html>

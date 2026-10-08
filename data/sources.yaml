@@ -1,0 +1,14 @@
+# Allowlisted sources for the daily knowledge update. A HUMAN must verify every URL before filling it in.
+# Open each site, find its RSS/Atom feed (or a stable listing page), confirm it loads, then paste it here.
+# Check each site's terms of use and robots rules. We store our own short summary + the source link only.
+sources:
+  - name: "FTC Consumer Alerts"
+    url: "VERIFY_AND_FILL"
+    max_items_per_run: 5
+  - name: "National cybercrime / CERT advisories (your country)"
+    url: "VERIFY_AND_FILL"
+    max_items_per_run: 5
+  - name: "Reputable security-news feed"
+    url: "VERIFY_AND_FILL"
+    max_items_per_run: 5
+allowed_domains: []   # exact hostnames of the sources above, e.g. ["consumer.ftc.gov"]
