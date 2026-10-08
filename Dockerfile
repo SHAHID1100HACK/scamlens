@@ -1,5 +1,5 @@
 FROM python:3.11-slim
-RUN useradd -m -u 1000 user
+RUN useradd -m -u 1000 user && mkdir -p /app && chown user:user /app
 WORKDIR /app
 ENV PATH="/home/user/.local/bin:${PATH}" PYTHONUNBUFFERED=1 PYTHONDONTWRITEBYTECODE=1
 COPY --chown=user requirements.txt .
