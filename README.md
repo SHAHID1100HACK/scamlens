@@ -1,12 +1,3 @@
----
-title: ScamLens
-emoji: 🔍
-colorFrom: blue
-colorTo: indigo
-sdk: docker
-app_port: 7860
-pinned: false
----
 
 # 🔍 ScamLens — explainable scam checks (ForgeHacks 2026 · AI + Cybersecurity)
 
@@ -14,7 +5,7 @@ Paste or select a job offer, marketplace chat, message or link. ScamLens gives a
 
 **Inspiration:** Trustee (ESSEC 2025 hackathon), a Chrome extension that scored fraud risk on listings and chats with RAG + LLM reasoning, with explainability as its core strength.
 
-- **Live demo:** `https://<USERNAME>-scamlens.hf.space` (free Space; it may take a minute to wake)
+- **Live demo:** https://scamlens-ewwt.onrender.com (free Render instance; the first visit after a quiet period can take about a minute to wake)
 - **Extension download:** `/install` page of the demo (ZIP + checksum + 4 install steps)
 - **Video:** _add YouTube link_
 
@@ -24,7 +15,7 @@ Paste or select a job offer, marketplace chat, message or link. ScamLens gives a
 3. **RAG**: retrieval over 43 hand-written scam playbooks plus auto-learned ones.
 4. **LLM reasoning** (Gemini free tier, optional fallback provider): strict JSON; the server verifies every quote is real text and every playbook was actually retrieved.
 5. **Fusion scoring** with hard floors (advance-fee, credential requests) the model cannot lower, an honest **"not sure"** state, and a clear **limited mode** if the AI is unavailable.
-6. **Self-updating knowledge**: a daily GitHub Action reads allowlisted scam-alert feeds, extracts cards with the LLM, validates/quarantines them and commits `data/auto_cards.json`; the app pulls it with **Update knowledge now**. (Retrieval update, not model fine-tuning.)
+6. **Self-updating knowledge**: a daily GitHub Action reads allowlisted scam-alert feeds, extracts cards with the LLM, validates/quarantines them and commits `data/auto_cards.json`; the server pulls it automatically at start-up and every 6 hours (visitors cannot trigger updates). (Retrieval update, not model fine-tuning.)
 
 ## Results (honest)
 Evaluated in **limited mode** (no LLM key was available while building), on synthetic messages I wrote.
@@ -49,14 +40,19 @@ pytest -q
 ```
 Without keys the app runs in **limited mode** (rules + classifier). Open http://localhost:7860.
 
-## Deploy free (Hugging Face Space)
-1. Create a **Docker** Space (public, CPU basic). Add secrets `GEMINI_API_KEY` (and optional `FALLBACK_API_KEY`) and variables `LLM_MODEL`, `KNOWLEDGE_URL` (raw GitHub URL of `data/auto_cards.json`), `ALLOWED_ORIGINS`.
-2. Push this repo to the Space (`git remote add space https://huggingface.co/spaces/<USERNAME>/scamlens && git push space main`).
-3. Open the Space URL, then `/install` to download the extension.
+## Deploy free (Render)
+Hugging Face now restricts Docker Spaces to paid accounts, so this project runs on Render's free web service (Docker, 512 MB).
+1. New **Web Service** from this GitHub repo, language **Docker**, instance type **Free**, health check path `/health`.
+2. Environment variables: `GEMINI_API_KEY` (secret), `LLM_MODEL`, `KNOWLEDGE_URL` (raw GitHub URL of `data/auto_cards.json`).
+3. The classifier is trained during the Docker build, and the extension ZIP is built at start-up with the service's own address.
 Add `GEMINI_API_KEY` as a GitHub Actions secret, verify the URLs in `data/sources.yaml`, and run the **ingest-scam-feeds** workflow once.
 
 ## Install the extension
-Download from the demo's `/install` page → unzip → `chrome://extensions` → Developer mode → **Load unpacked**. Select text → right-click → **Check with ScamLens**.
+Download the ZIP from the demo's `/install` page and unzip it.
+- **Chrome, Edge, Brave:** open `chrome://extensions`, turn on Developer mode, click **Load unpacked**, choose the unzipped folder.
+- **Firefox:** open `about:debugging#/runtime/this-firefox`, click **Load Temporary Add-on**, choose `manifest.json`, then in `about:addons` open ScamLens, **Permissions and data**, and allow access to the ScamLens site.
+
+Select text, right-click, **Check with ScamLens**. (Only tested in Firefox so far; the same files are meant to work in Chrome.)
 
 ## Disclaimer
 ScamLens can be wrong. "No strong red flags" does not mean safe. Verify through official channels. Demo examples are synthetic; do not paste real personal data.
